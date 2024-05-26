@@ -17,12 +17,16 @@ Setup (as tested on Windows)
    pip install pillow
    
    pip install googletrans
-   
+
 4. Download `yr12.zip` (images to be displayed in program) and extract all items within the folder.
 
-5. Download `animal classification game FINAL.py`
-   
-7. Open the game file in any editor and click run.
+6. Unzip the folder downloaded and put it somewhere sensible in your file system.
 
-8. Follow instructions displayed on screen. To quit, press the menu button, then quit.
+## Download the code
+
+1. Download `animal classification game FINAL.py` by clicking on the green "Clone or download" button in the top right corner.
+   
+2. Open the game file in any editor and click run.
+
+3. Follow instructions displayed on screen. To quit, press the menu button, then quit.
 
