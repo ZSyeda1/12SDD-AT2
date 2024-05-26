@@ -10,12 +10,18 @@ Setup (as tested on Windows)
 1. Install Python 3 from [here](https://www.python.org/downloads/) 
 
 2. Run `module_download.sh` in terminal (this will install pip packages)
+   OR type the following lines into terminal:
+   pip install tk
+   pip install pillow
+   pip install googletrans
    
 4. Download `yr12.zip` (images to be displayed in program)
 
-5. Run `animal classification game FINAL.py` to begin the game.
+5. Download `animal classification game FINAL.py`
+   
+7. Open the game file in any editor and click run.
 
-6. Follow instructions displayed on screen. To quit, press the menu button, then quit.
+8. Follow instructions displayed on screen. To quit, press the menu button, then quit.
 
 
 Demo
