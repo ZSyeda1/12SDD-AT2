@@ -11,8 +11,11 @@ Setup (as tested on Windows)
 
 2. Run `module_download.sh` in terminal (this will install pip packages)
    OR type the following lines into terminal:
+   
    pip install tk
+   
    pip install pillow
+   
    pip install googletrans
    
 4. Download `yr12.zip` (images to be displayed in program)
