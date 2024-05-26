@@ -18,7 +18,7 @@ Setup (as tested on Windows)
    
    pip install googletrans
    
-4. Download `yr12.zip` (images to be displayed in program)
+4. Download `yr12.zip` (images to be displayed in program) and extract all items within the folder.
 
 5. Download `animal classification game FINAL.py`
    
