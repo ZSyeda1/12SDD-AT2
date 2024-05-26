@@ -26,8 +26,3 @@ Setup (as tested on Windows)
 
 8. Follow instructions displayed on screen. To quit, press the menu button, then quit.
 
-
-Demo
-----------
-
-https://user-images.githubusercontent.com/2307626/130682424-9254b32d-efe0-406e-a6ea-3fb625a2df5e.mp4
