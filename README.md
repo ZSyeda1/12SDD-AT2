@@ -1,9 +1,7 @@
 [Animal Classification Game](https://github.com/ZSyeda1/12SDD-AT2)
 ===============
 
-A game teaching children about the different types of animals. Made using [python-tkinter][tkinter]
-
-[pygame]: [http://www.pygame.org](https://docs.python.org/3/library/tkinter.html)
+A game teaching children about the different types of animals. Made using Python Tkinter.
 
 
 Setup (as tested on Windows)
