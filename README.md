@@ -9,11 +9,12 @@ Setup (as tested on Windows)
 
 1. Install Python 3 from [here](https://www.python.org/downloads/) 
 
-2. Run `make init` (this will install pip packages)
+2. Run `module_download.SH` in terminal (this will install pip packages)
+3. download 'project pics.zip' 
 
-3. Run `make` to run the game.
+4. Run `animal classification game v22 FINAL.py` to run the game.
 
-4. Follow instructions displayed on screen. To quit, press the menu button, then quit.
+5. Follow instructions displayed on screen. To quit, press the menu button, then quit.
 
 
 Demo
