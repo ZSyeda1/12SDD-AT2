@@ -11,9 +11,9 @@ Setup (as tested on Windows)
 
 2. Run `module_download.sh` in terminal (this will install pip packages)
    
-4. Download 'project pics.zip' (images to be displayed in program)
+4. Download 'yr12.zip' (images to be displayed in program)
 
-5. Run `animal classification game FINAL.py` to run the game.
+5. Run `animal classification game FINAL.py` to begin the game.
 
 6. Follow instructions displayed on screen. To quit, press the menu button, then quit.
 
