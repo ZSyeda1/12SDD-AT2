@@ -9,8 +9,8 @@ Setup (as tested on Windows)
 
 1. Install Python 3 from [here](https://www.python.org/downloads/) 
 
-2. Run `module_download.sh` in terminal (this will install pip packages)
-   OR type the following lines into terminal:
+2. Run `module_download.sh` in the terminal (this will install pip packages)
+   OR type the following lines into the terminal:
    
    pip install tk
    
@@ -18,15 +18,11 @@ Setup (as tested on Windows)
    
    pip install googletrans
 
-4. Download `yr12.zip` (images to be displayed in program) and extract all items within the folder.
+4. Download `DISTRIBUTABLE_SDD_PROJECT.zip`. Save to the Onedrive desktop and extract all items within the folder.
 
-6. Unzip the folder downloaded and put it somewhere sensible in your file system.
+## Run the code
+  
+1. Open the game file within the folder (named 'animal classification game DISTRIBUTABLE') in any editor (Visual Studio Code, IDLE, etc) and click run.
 
-## Download the code
-
-1. Download `animal classification game FINAL.py` by clicking on the green "Clone or download" button in the top right corner.
-   
-2. Open the game file in any editor and click run.
-
-3. Follow instructions displayed on screen. To quit, press the menu button, then quit.
+2. Follow the instructions displayed on the screen. To end the program, click quit within the menubar.
 
