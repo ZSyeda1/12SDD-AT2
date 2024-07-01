@@ -141,7 +141,7 @@ def EndScreeN(): #displays congrats screen if level 6 completed
     congrats_label.place(x=0, y=0, relwidth=1, relheight=1)
 
     #congrats message
-    congrats_message= Label(master=congrats, text=("Congrats, you are now an expert"+"\n"+" on the 6 categories of animals"), relief="ridge", width=30, height=4, bg="light green", fg="black", font=(("Comic Sans MS"), 13))
+    congrats_message= Label(master=congrats, text=("Congrats, you are now an expert"+"\n"+" on the 6 categories of animals"), width=30, height=4, bg="light green", fg="black", font=(("Comic Sans MS"), 13))
     congrats_message.place(x=250, y=50)
 
     #replay option
@@ -152,7 +152,7 @@ def EndScreeN(): #displays congrats screen if level 6 completed
     def quit_game(event):
         command=sys.exit()
         
-    quit_end=Button(congrats, text="quit", width=10, height=5, bg="light green")
+    quit_end=Button(congrats, text="quit", width=10, height=5, bg="light green", relief="ridge")
     quit_end.bind("<Button-1>", quit_game)
     quit_end.place(x=300, y=150)
 
@@ -477,7 +477,7 @@ def transition5(): #hide level 5 summary and show level 6 instructions
     invertebrates_collage_image = PIL.Image.open("invertebrates.jpg")
     TK_invertebrates_collage =   customtkinter.CTkImage(invertebrates_collage_image,
         size=(400,400))
-    invertebrates_collage =   customtkinter.CTkLabel(master=instr_lvl6, image=TK_invertebrates_collage)
+    invertebrates_collage =   customtkinter.CTkLabel(master=instr_lvl6, image=TK_invertebrates_collage, text="")
 
     instr_lvl6.place(x=0, y=0)
     invertebrates_collage.place(x=0, y=0)
@@ -719,7 +719,7 @@ def Level5():
             cont5.configure(command=Level5)
         cont5.configure(command=return_lvl5)
         instr_lvl5.lift()
-    back5= Button(master=lvl5_game, text=("instructions"), width=15, height=2, bg="#cca47c", font=(("Comic Sans MS"), 6), command=back5_func, relief="raised")
+    back5= Button(master=lvl5_game, text=("instructions"), width=15, height=2, bg="#cca47c", font=(("Comic Sans MS"), 8), command=back5_func, relief="raised")
 
     #reset level
     def reset5_func():
@@ -803,7 +803,7 @@ def transition4():
     reptiles_collage_image = PIL.Image.open("Reptiles.jpg")
     TK_reptiles_collage =   customtkinter.CTkImage(reptiles_collage_image,
         size=(400,400))
-    reptiles_collage =   customtkinter.CTkLabel(master=instr_lvl5, image=TK_reptiles_collage)
+    reptiles_collage =   customtkinter.CTkLabel(master=instr_lvl5, image=TK_reptiles_collage, text="")
 
     instr_lvl5.place(x=0, y=0)
     reptiles_collage.place(x=0, y=0)
@@ -1128,7 +1128,7 @@ def transition3():
     amphibians_collage_image = PIL.Image.open("amphibians.jpg")
     TK_amphibians_collage =  customtkinter.CTkImage(amphibians_collage_image,
         size=(400,400))
-    amphibians_collage =  customtkinter.CTkLabel(master=instr_lvl4, image=TK_amphibians_collage)
+    amphibians_collage =  customtkinter.CTkLabel(master=instr_lvl4, image=TK_amphibians_collage, text="")
 
     instr_lvl4.place(x=0, y=0)
     amphibians_collage.place(x=0, y=0)
@@ -1452,7 +1452,7 @@ def transition2():
     fish_collage_image = PIL.Image.open("fish-montage.jpg")
     TK_fish_collage =   customtkinter.CTkImage(fish_collage_image,
         size=(400,400))
-    fish_collage =  customtkinter.CTkLabel(master=instr_lvl3, image=TK_fish_collage)
+    fish_collage =  customtkinter.CTkLabel(master=instr_lvl3, image=TK_fish_collage, text="")
 
     instr_lvl3.place(x=0, y=0)
     fish_collage.place(x=0, y=0)
@@ -2623,12 +2623,12 @@ size_menu = Menu(menubar, tearoff=False)
 settings_menu.add_cascade(menu=size_menu, label="Text size")
 
 
-size_menu.add_radiobutton(
+size_menu.add_command(
     label="+",
     command=lambda: scale_all_widgets(1.5), 
 )
 
-size_menu.add_radiobutton(
+size_menu.add_command(
     label="-",
     command=lambda: scale_all_widgets(0.5),
 )
